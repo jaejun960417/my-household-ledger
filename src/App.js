@@ -8,10 +8,13 @@ import { PlusCircle, Wallet, TrendingUp, Download, Settings, Home, Calendar, Cir
 // Tailwind CSS is assumed to be available
 
 // Global variables from Canvas environment
-const appId = typeof __app_id !== 'undefined' ? __app_id : 'default-app-id';
-const firebaseConfig = typeof __firebase_config !== 'undefined' ? JSON.parse(__firebase_config) : {};
-const initialAuthToken = typeof __initial_auth_token !== 'undefined' ? __initial_auth_token : null;
-
+apiKey: "AIzaSyCMFFlU5wyUf8MUdBFi7Dz49I74uNFsQyI",
+  authDomain: "household-bbdba.firebaseapp.com",
+  projectId: "household-bbdba",
+  storageBucket: "household-bbdba.firebasestorage.app",
+  messagingSenderId: "796055241473",
+  appId: "1:796055241473:web:f931d8a623a10630625100",
+  measurementId: "G-CMDG2PYKTE"
 // Context for Firebase and User
 const AppContext = createContext(null);
 
